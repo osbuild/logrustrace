@@ -1,6 +1,8 @@
 module github.com/osbuild/logrustrace
 
-go 1.23.3
+go 1.22
+
+toolchain go1.22.9
 
 require (
 	github.com/labstack/echo/v4 v4.12.0
