@@ -1,4 +1,4 @@
-module github.com/lzap/logrustrace
+module github.com/osbuild/logrustrace
 
 go 1.23.3
 
@@ -7,7 +7,6 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	go.opentelemetry.io/contrib/instrumentation/github.com/labstack/echo/otelecho v0.57.0
 	go.opentelemetry.io/otel v1.32.0
-	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.32.0
 	go.opentelemetry.io/otel/sdk v1.32.0
 	go.opentelemetry.io/otel/trace v1.32.0
 )
